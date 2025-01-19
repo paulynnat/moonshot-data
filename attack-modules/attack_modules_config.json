@@ -9,7 +9,15 @@
         "configurations":{
             "max_iteration": 20
         }
-    },        
+    },
+        "IC_number_masking":{
+        "endpoints": [
+            "openai-gpt4"
+        ],        
+        "configurations":{
+            "max_iteration": 10
+        }
+    },   	
     "insert_punctuation_attack":{
         "configurations":{
             "max_iteration": 10,
