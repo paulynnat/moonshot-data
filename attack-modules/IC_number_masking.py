@@ -6,7 +6,7 @@ from moonshot.src.redteaming.attack.attack_module import AttackModule
 from moonshot.src.redteaming.attack.attack_module_arguments import AttackModuleArguments
 from moonshot.src.utils.log import configure_logger
 
-# Create a logger for this module
+# Create a logger for this module #written by LeosonH
 logger = configure_logger(__name__)
 
 # Configurble PARAMS - Number of questions to generate from the generator LLM to send to the taret LLM
